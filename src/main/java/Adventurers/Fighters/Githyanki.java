@@ -13,14 +13,13 @@ public class Githyanki extends Fighter {
         this.numberOfAttacks = 0;
     }
 
-
     public int getNumberOfAttacks() {
         return numberOfAttacks;
     }
 
     public void getMultipleAttacks(){
-        Random rand = new Random();
-        int attacks =  rand.nextInt(2);
+        Random random = new Random();
+        int attacks =  random.nextInt(2);
         this.numberOfAttacks += attacks + 1;
     }
 
