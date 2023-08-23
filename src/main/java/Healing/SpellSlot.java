@@ -10,7 +10,7 @@ public class SpellSlot implements IHeal{
         public SpellSlot(){
             this.heal = 15;
         }
-        
+
         public void heal(Adventurer adventurer) {
             adventurer.getHealed(heal);
         }
