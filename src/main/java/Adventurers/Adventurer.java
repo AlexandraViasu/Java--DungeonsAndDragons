@@ -27,7 +27,7 @@ public abstract class Adventurer {
         weapon.attack(enemy);
     }
 
-    public void getHealed(int healthPoints){
-        this.hP += healthPoints;
+    public void getHealed(int hP){
+        this.hP += hP;
     }
 }
