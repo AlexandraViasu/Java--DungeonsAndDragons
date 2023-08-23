@@ -13,4 +13,5 @@ public abstract class Enemy {
     public void takeDamage(int damage){
         this.hP -= damage;
     }
+
 }
